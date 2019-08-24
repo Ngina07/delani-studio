@@ -22,3 +22,17 @@ header {
     text-align: center;
     padding-top: 30px; 
     padding-bottom: 50px;
+}
+#services {
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    color: white;
+    text-align: center;
+    padding: 148px;
+
+}
+/* .services_icons {
+    padding: 400px;
+} */
+h2{
+    text-align: center;
+}
