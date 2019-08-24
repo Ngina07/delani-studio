@@ -36,3 +36,14 @@ header {
 h2{
     text-align: center;
 }
+#icons {
+    text-align: center;
+    display: inline;
+}
+.images p { 
+   /* margin: 100px; */
+}
+#icons h2{
+   padding-top: 15px;
+   padding-bottom: 10px;
+}
