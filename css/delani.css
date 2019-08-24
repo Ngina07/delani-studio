@@ -47,15 +47,117 @@ h2{
    padding-top: 15px;
    padding-bottom: 10px;
 }
-#portfolio {
+/* #portfolio {
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 0px;
 }
 
 #portfolio_row2 {
+    padding-top: 50px; */
+/* } */
+
+#portfolio {
     padding-top: 50px;
-}
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  #portfolio h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #portfolio h1::after {
+    content: '';
+    background: #222;
+    display: block;
+    height: 2px;
+    width: 0%;
+    margin: 15px auto 25px;
+  }
+  #portfolio .container {
+    position: relative;
+    width: 85%;
+  }
+  #portfolio .row {
+    padding-bottom: 40px;
+    display: inline-flex;
+  }
+  #portfolio .doings {
+    flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  }
+  #portfolio .doings img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  #portfolio .icon {
+    margin: 0 auto;
+    width: 95%;
+    height: 90%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    transition: 1.5s ease-in-out;
+    opacity: 1;
+    
+  }
+  #portfolio .description {
+    width: 100%;
+    text-align: center;
+    /* padding: 5px 5px; */
+    color: #222;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 0.50em;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+  }
+  @keyframes Slide {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .icon .hide {
+    display: none;
+  }
+  
+  /* @media screen and (max-width: 501px) {
+    #portfolio h1::after {
+      margin: 15px auto 20px;
+    }
+    #portfolio h1::after {
+      width: 35%;
+    }
+    #portfolio .icon {
+      margin: 0 auto;
+      width: 100%;
+    } */
+  /* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #contact {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/backgrounds/c_image.jpg) no-repeat center center fixed;
     background-size: cover;
