@@ -40,22 +40,72 @@ h2{
     text-align: center;
     display: inline;
 }
-.images p { 
-   /* margin: 100px; */
-}
+
 #icons h2{
    padding-top: 15px;
    padding-bottom: 10px;
 }
-/* #portfolio {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 0px;
-}
 
-#portfolio_row2 {
-    padding-top: 50px; */
-/* } */
+
+
+#icons h1::after {
+    content: '';
+    background: #222;
+    display: block;
+    height: 2px;
+    width: 15%;
+    margin: 15px auto 45px;
+  }
+  #icons .container {
+    position: relative;
+  }
+  
+  #icons p {
+    font-size: 14px;
+  }
+  /* #icons .doings {
+    height: 180px;
+  }
+  #icons .icons {
+    height: 130px;
+  } */
+  #icons #design {
+    display: none;
+  }
+  #icons #design-icon {
+    display: show;
+  }
+  #icons #design {
+    display: none;
+  }
+  #icons #dev-icon {
+    display: show;
+  }
+  #icons #developement {
+    display: none;
+  }
+  #icons #product-icon {
+    display: show;
+  }
+  #icons #product-management {
+    display: none;
+  }
+  #icons .icons:hover  p {
+    text-align: center;
+    font-size: 14px;
+  }
+  /* @media screen and (max-width: 601px) {
+    #icons h1::after {
+      margin: 15px auto 20px;
+      width: 35%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    #icons .doings {
+      height: auto;
+      cursor: pointer;
+    } */
+  /* } */
 
 #portfolio {
     padding-top: 50px;
@@ -109,7 +159,7 @@ h2{
     text-align: center;
     /* padding: 5px 5px; */
     color: #222;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.456);
     font-size: 0.50em;
     font-size: 30px;
     position: absolute;
@@ -142,24 +192,6 @@ h2{
       width: 100%;
     } */
   /* } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #contact {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/backgrounds/c_image.jpg) no-repeat center center fixed;
     background-size: cover;
