@@ -111,3 +111,15 @@ h2{
     font-size: 14px;
     
   }
+  /* footer */
+  #footer-icons {
+    padding-top: 30px;
+    display: inline-flex;
+    line-height: 10px;
+}
+#footer {
+    text-align: center;
+}
+#company {
+    padding-top: 20px;
+}
