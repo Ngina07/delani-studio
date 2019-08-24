@@ -1,0 +1,24 @@
+body {
+    align-content: center;
+}
+header {
+    background-image:url(/assets/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 320px;
+
+}
+#mouse_click {
+    padding-top: 500px;
+    padding-bottom: 50px;
+}
+#logo {
+    padding-bottom: 40px;
+}
+#about_us  {
+    text-align: center;
+    padding-top: 30px; 
+    padding-bottom: 50px;
