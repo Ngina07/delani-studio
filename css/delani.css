@@ -56,3 +56,58 @@ h2{
 #portfolio_row2 {
     padding-top: 50px;
 }
+#contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/backgrounds/c_image.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #c8c8c8;
+  }
+  #contact h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* #contact h1::after {
+    content: '';
+    background: #ddd;
+    display: block;
+    height: 2px;
+    width: 15%;
+    margin: 15px auto 10px;
+  } */
+  .form-control {
+    background-color: transparent;
+    border-color: #ddd;
+  }
+  .form-control:focus {
+    background-color: transparent !important;
+    color: #fff;
+    border-color: #ffffff;
+  }
+  form .btn {
+    background: #111;
+    font-weight: 400;
+    outline: none;
+  }
+  /* form .btn:hover {
+    background: #000;
+    font-weight: 300;
+    border-radius: 10px; */
+  /* } */
+  /* @media screen and (max-width: 601px) {
+    #contact h1::after {
+      margin: 15px auto 20px;
+      width: 35%;
+    }
+  } */
+  .message {
+    margin: 10px 10px;
+    width: 500px;
+    max-width: 65%;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    
+  }
