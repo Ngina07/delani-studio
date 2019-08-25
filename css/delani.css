@@ -247,6 +247,31 @@ h2{
     font-size: 14px;
     
   }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    /* border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; */
+    resize: vertical;
+    }
+    
+    input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+    ::placeholder {
+      color:white;    
+    }
+  
   /* footer */
   #footer-icons {
     padding-top: 30px;
