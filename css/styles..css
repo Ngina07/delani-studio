@@ -1,5 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
+  font-family:open sans; 
     align-content: center;
+    margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 header {
     background-image:url(../assets/backgrounds/h_img.jpg);
@@ -9,6 +18,7 @@ header {
     text-transform: uppercase;
     color: white;
     padding-top: 320px;
+    
 
 }
 #mouse_click {
@@ -143,8 +153,9 @@ h2{
     bottom: 0;
     left: 0;
     padding-top: 80px;
-   
-  }
+   font-size: 20px;
+   text-align: center;
+    }
   @keyframes Slide {
     from {
       opacity: 0;
@@ -196,11 +207,7 @@ h2{
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    /* border-radius: 4px;
-    box-sizing: border-box; 
-    margin-top: 6px;
-    margin-bottom: 16px; */
-    resize: vertical;
+   resize: vertical;
     }
     
     input[type=submit] {
@@ -215,7 +222,7 @@ h2{
     background-color: #45a049;
     }
     ::placeholder {
-      color:white;    
+      color:white;
     }
   
   /* footer */
