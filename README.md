@@ -8,7 +8,7 @@ This is a webpage for Delani studio. It contains information about Delani studio
 ## Setup/Installation Requirements
 To access this application you will require a browser and working network.
 ## Known Bugs
-There are no known bugs , however all commits labeled updates/updated were made when trying to fix the error that was making the page load a blank white page.
+There are no known bugs , however all commits labeled updates/updated were made when trying to fix the error that was making the livesite load a blank white page. This error has since been corrected.
 ## Technologies Used
 This webpage was created using HTML and CSS, Bootstrap and JavaScript language as well as jquery library
 ## Support and contact details
