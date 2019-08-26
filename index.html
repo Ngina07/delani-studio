@@ -13,9 +13,9 @@
 <body>
     <header>
         <img src="./assets/logo/logo.png" id=logo>
-        <h1>WELCOME</h1>
+        <h1 style="font-size: 40px">WELCOME</h1>
         <h2>To Delani Studio</h2>
-        <p> AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        <p style="font-size: 20px"> AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
         <img src="./assets/mouse_click.png" alt="mouse_click" id="mouse_click">
     </header>
     <!-- </div> -->
@@ -93,7 +93,7 @@
 
                         <div class="icon work1">
                             <img src="./assets/portfolio/work1.jpg">
-                            <span class="description">WORK 1</span>
+                            <span class="description">RE-FLIX.COM</span>
                         </div>
 
                     </div>
@@ -101,7 +101,7 @@
 
                         <div class="icon work2">
                             <img src="./assets/portfolio/work2.jpg">
-                            <span class="description">WORK 2</span>
+                            <span class="description">GOLDEN GATE</span>
                         </div>
 
                     </div>
@@ -109,7 +109,7 @@
 
                         <div class="icon work3">
                             <img src="./assets/portfolio/work3.jpg">
-                            <span class="description">WORK 3</span>
+                            <span class="description">ONTARIO</span>
                         </div>
 
                     </div>
@@ -117,7 +117,7 @@
 
                         <div class="icon work4">
                             <img src="./assets/portfolio/work4.jpg">
-                            <span class="description">WORK 4</span>
+                            <span class="description">THE-GREY</span>
                         </div>
 
                     </div>
@@ -126,7 +126,7 @@
 
                         <div class="icon work5">
                             <img src="./assets/portfolio/work5.jpg">
-                            <span class="description">WORK 5</span>
+                            <span class="description">EDEN</span>
                         </div>
 
                     </div>
@@ -134,7 +134,7 @@
 
                         <div class="icon work6">
                             <img src="./assets/portfolio/work6.jpg">
-                            <span class="description">WORK 6</span>
+                            <span class="description">CONNECT</span>
                         </div>
 
                     </div>
@@ -142,7 +142,7 @@
 
                         <div class="icon work7">
                             <img src="./assets/portfolio/work7.jpg">
-                            <span class="description">WORK 7</span>
+                            <span class="description">BURNED</span>
                         </div>
 
                     </div>
@@ -150,7 +150,7 @@
 
                         <div class="icon work8">
                             <img src="./assets/portfolio/work8.jpg">
-                            <span class="description">WORK 8</span>
+                            <span class="description">GIRAFFE</span>
                         </div>
 
                     </div>
@@ -161,28 +161,28 @@
 
     <!-- Contact form -->
     <section id="contact">
-        <div class="container-fluid">
+        <div class="container">
             <div class="container">
                 <h1><strong>CONTACT US</strong></h1>
-                <form>
+                <form id="contactform">
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="name"></label>
-                            <input type="text" class="form-control" id="name" placeholder="Name..." required>
+                            <input type="text" class="form-control" id="name" placeholder="Name..."  >
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputEmail"></label>
-                            <input type="text" class="form-control" id="inputEmail" placeholder="Email..." required>
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email..." >
                         </div>
                     </div>
                     <div class="form-group border">
                         <!-- <label for="message"></label> -->
                         <textarea class="form-control" id="message" style="height: 300px"
-                            placeholder="Your text here..." required></textarea>
+                            placeholder="Your text here..." ></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
                 </form>
-                <span id="message"></span>
+                <span id="feedback"></span>
             </div>
         </div>
     </section>
