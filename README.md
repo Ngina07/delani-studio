@@ -2,13 +2,13 @@
 #### This is a webpage for Delani studio, 26/08/2019
 #### By Phillis Ngina Njoroge
 ## Description
-This is a webpage that calculates and prints a users Akan name based on their day of birth and gender. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. click <a href="https://ngina07.github.io/akan-names/">here</a> to access the live site on Github pages
+This is a webpage for Delani studio. It contains information about Delani studio, thecservices they provide and also displays their portfolio.Click <a href="https://ngina07.github.io/delani-studio/">here</a> to access the live site on Github pages
 
 
 ## Setup/Installation Requirements
 To access this application you will require a browser and working network.
 ## Known Bugs
-This code has no known bugs
+There are no known bugs , however all commits labeled updates/updated were made when trying to fix the error that was making the page load a blank white page.
 ## Technologies Used
 This webpage was created using HTML and CSS, Bootstrap and JavaScript language as well as jquery library
 ## Support and contact details
